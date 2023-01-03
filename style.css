@@ -39,9 +39,6 @@ img {
   font-size: 30px;
   padding: 20px;  
 }
-.hidden1{
-  display: none;
-}
 .uppercase{
   text-transform: uppercase;
 }
@@ -100,8 +97,5 @@ img {
   flex: 3;
   height: 100vh;
   overflow: scroll;
- }  
-.hidden{
-  display: block;
  }
 }

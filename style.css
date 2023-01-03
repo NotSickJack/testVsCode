@@ -39,7 +39,7 @@ img {
   font-size: 30px;
   padding: 20px;  
 }
-.hidden, .hidden1{
+.hidden1{
   display: none;
 }
 .uppercase{
@@ -49,9 +49,19 @@ img {
   font-family: "brutGrotesque-medium";
 }
 .side1{
+  padding-top: 20px;
   display: grid;
   grid-template-columns: 35% 65%;
   font-family: "BrutGrotesque";
+}
+.column1{
+  font-size: 34px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  letter-spacing: 10px;
+  
+  
 }
 .column3{
   font-family: "BrutGrotesque";
@@ -61,7 +71,7 @@ img {
   padding-top: 10px;
 }
 .shadow{
-  color: rgba(0, 0, 0, 0.050);
+  color: rgba(0, 0, 0, 0.1);
 }
 @media (min-width: 800px){
   .container {

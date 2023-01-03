@@ -6,8 +6,15 @@
           box-sizing: border-box;
   font-size: 100%;
 }
-body, html{
-  overflow-y: hidden;
+@font-face {
+  font-family: "BrutGrotesque-book";
+  src: url(BrutGrotesque/BrutGrotesque-Book.otf);
+  font-family: "BrutGrotesque-bold";
+  src: url(BrutGrotesque/BrutGrotesque-Bold.otf);
+  font-family: "BrutGrotesque";
+  src: url(BrutGrotesque/BrutGrotesque-regular.otf);
+  font-family: "BrutGrotesque-medium";
+  src: url(BrutGrotesque/BrutGrotesque-Medium.otf);
 }
 ul,
 ul li {
@@ -18,6 +25,7 @@ a ,h2 {
   text-transform: uppercase;
   font-weight: normal;
   color: black;
+  font-family: "BrutGrotesque-bold";
 }
 img {
   max-width: 100%;
@@ -26,28 +34,66 @@ img {
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  justify-content: space-around; 
+  justify-content: space-between; 
   text-align: center;
-  font-size: 44px;
+  font-size: 30px;
   padding: 20px;  
 }
-.containerFlex {
-  display: flex;
+.hidden, .hidden1{
+  display: none;
 }
-.column1{
+.uppercase{
+  text-transform: uppercase;
+}
+.mediumfont{
+  font-family: "brutGrotesque-medium";
+}
+.side1{
+  display: grid;
+  grid-template-columns: 35% 65%;
+  font-family: "BrutGrotesque";
+}
+.column3{
+  font-family: "BrutGrotesque";
+  font-size: 14px;
+}
+.distance{
+  padding-top: 10px;
+}
+.shadow{
+  color: rgba(0, 0, 0, 0.050);
+}
+@media (min-width: 800px){
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between; 
+    text-align: center;
+    font-size: 44px;
+    padding: 20px;
+  }  
+  .containerFlex {
+    display: flex;
+  }
+  .column1{
   flex: 3;
   height: 100vh;
   overflow:scroll; 
   font-size: 440px;
   text-align: center;
-}
-.column2{
-  flex: 3;
-  height: 100vh;
-  overflow: scroll; 
-}
-.column3{
+  font-family: "BrutGrotesque-book";
+ }
+ .column2{
   flex: 3;
   height: 100vh;
   overflow: scroll;
+ }
+ .column3{
+  flex: 3;
+  height: 100vh;
+  overflow: scroll;
+ }  
+.hidden{
+  display: block;
+ }
 }

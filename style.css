@@ -6,6 +6,9 @@
           box-sizing: border-box;
   font-size: 100%;
 }
+body, html{
+  overflow-y: hidden;
+}
 ul,
 ul li {
   list-style: none;
@@ -26,26 +29,25 @@ img {
   justify-content: space-around; 
   text-align: center;
   font-size: 44px;
-  padding: 20px;
+  padding: 20px;  
 }
 .containerFlex {
   display: flex;
 }
 .column1{
   flex: 3;
-  width: 100vh;
+  height: 100vh;
   overflow:scroll; 
   font-size: 440px;
   text-align: center;
-  
 }
 .column2{
   flex: 3;
-  width: 100vh;
+  height: 100vh;
   overflow: scroll; 
 }
 .column3{
   flex: 3;
-  width: 100vh;
+  height: 100vh;
   overflow: scroll;
 }

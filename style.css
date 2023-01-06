@@ -47,7 +47,7 @@ img {
 }
 .side1{
   display: grid;
-  grid-template-columns: 35% 65%;
+  grid-template-columns: 33% 67%;
   font-family: "BrutGrotesque";
 }
 .column1{

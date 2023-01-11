@@ -27,6 +27,9 @@ a ,h2 {
   color: black;
   font-family: "BrutGrotesque-bold";
 }
+a:hover{
+  color: rgba(0, 0, 0, 0.5);
+}
 img {
   max-width: 100%;
   height: auto;

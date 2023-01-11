@@ -63,7 +63,7 @@ img {
 .column3{
   font-family: "BrutGrotesque";
   font-size: 12px;
-  margin: 10px;
+  padding: 0px 10px
 }
 .distance{
   padding-top: 10px;
@@ -82,6 +82,9 @@ img {
     text-align: center;
     font-size: 44px;
     padding: 20px;
+  }
+  a{
+    display: block;
   }  
   .containerFlex {
     display: flex;
@@ -93,7 +96,6 @@ img {
   font-size: 440px;
   text-align: center;
   font-family: "BrutGrotesque-book";
-  letter-spacing: 50px;
  }
  .column2{
   flex: 3;
@@ -105,6 +107,5 @@ img {
   height: 100vh;
   overflow: scroll;
   font-size: 14px;
-  margin: 0px;
  }
 }

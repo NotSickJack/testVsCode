@@ -79,12 +79,7 @@ img {
 }
 @media (min-width: 900px){
   .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: space-between; 
-    text-align: center;
     font-size: 44px;
-    padding: 20px;
   }
   a{
     display: block;

@@ -8,16 +8,15 @@
 }
 @font-face {
   font-family: "BrutGrotesque-book";
-  src: url(BrutGrotesque/BrutGrotesque-Book.otf);
+  src: url(brutGrotesque/BrutGrotesque-Book.otf);
   font-family: "BrutGrotesque-bold";
-  src: url(BrutGrotesque/BrutGrotesque-Bold.otf);
+  src: url(brutGrotesque/BrutGrotesque-Bold.otf);
   font-family: "BrutGrotesque";
-  src: url(BrutGrotesque/BrutGrotesque-regular.otf);
+  src: url(brutGrotesque/BrutGrotesque-regular.otf);
   font-family: "BrutGrotesque-medium";
-  src: url(BrutGrotesque/BrutGrotesque-Medium.otf);
+  src: url(brutGrotesque/BrutGrotesque-Medium.otf);
 }
-ul,
-ul li {
+ul, ul li {
   list-style: none;
 }
 a ,h2 {

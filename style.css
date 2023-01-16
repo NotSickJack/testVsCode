@@ -16,7 +16,8 @@
   font-family: "BrutGrotesque-medium";
   src: url(brutGrotesque/BrutGrotesque-Medium.otf);
 }
-ul, ul li {
+ul, 
+ul li {
   list-style: none;
 }
 a ,h2 {
